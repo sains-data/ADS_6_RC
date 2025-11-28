@@ -47,10 +47,10 @@ Proses pembersihan data mencakup:
 - Dataset kemudian digunakan untuk korelasi, uji asumsi, serta regresi linear berganda.
 
 4. Struktur Repositori
-├── ADS_KEL6.Rmd # File utama berisi seluruh kode analisis
-├── Dataset Mahasiswa.csv # Dataset yang digunakan
-├── README.Rmd / README.md # Dokumentasi project
-└── output/ # (opsional) folder penyimpanan hasil plot/knit
+- ADS_KEL6.Rmd
+- Dataset Mahasiswa.csv
+- README.Rmd
+- output
 
 file sudah mencakup:
 - Import data
