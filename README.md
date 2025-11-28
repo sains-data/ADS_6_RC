@@ -1,4 +1,5 @@
 **Analisis Faktor Fisik & Jam Belajar terhadap IPK Mahasiswa**
+
 Proyek ini menganalisis apakah tinggi badan, berat badan, dan jumlah jam belajar memiliki hubungan atau pengaruh terhadap IPK menggunakan metode EDA, Korelasi Pearson, dan Regresi Linear Berganda.
 
 **1. Cara Menjalankan Script**
