@@ -15,14 +15,14 @@ data <- read.csv("C:/Users/.../Dataset Tugas Besar ADS 2025 Karakteristik Mahasi
 **2. Paket R yang Digunakan**
 
 Paket-paket berikut digunakan dalam analisis:
-dplyr — manipulasi data
-stringr — pembersihan teks
-readr — pembacaan data
-MASS — uji normalitas residual
-lmtest — uji heteroskedastisitas
-car — uji multikolinearitas
-ggplot2 — visualisasi
-ggcorrplot — pembuatan heatmap korelasi
+- dplyr — manipulasi data
+- stringr — pembersihan teks
+- readr — pembacaan data
+- MASS — uji normalitas residual
+- lmtest — uji heteroskedastisitas
+- car — uji multikolinearitas
+- ggplot2 — visualisasi
+- ggcorrplot — pembuatan heatmap korelasi
 
 Instal seluruh paket jika belum tersedia:
 install.packages(c("dplyr","stringr","readr","MASS","lmtest","car","ggplot2","ggcorrplot"))
@@ -30,20 +30,20 @@ install.packages(c("dplyr","stringr","readr","MASS","lmtest","car","ggplot2","gg
 **3. Penjelasan Singkat Dataset**
 
 Dataset yang digunakan berisi karakteristik mahasiswa, digunakan untuk menganalisis faktor-faktor yang mempengaruhi IPK. Beberapa variabel penting dalam dataset:
-ipk – Indeks Prestasi Kumulatif
-jam_belajar – Durasi belajar per hari
-tinggi – Tinggi badan mahasiswa
-berat – Berat badan mahasiswa
-Variabel tambahan: prodi, gender, internet, beasiswa, pekerjaan, jarak, pendapatan, uang_saku, organisasi, tempat_tinggal, dan lainnya.
+- ipk – Indeks Prestasi Kumulatif
+- jam_belajar – Durasi belajar per hari
+- tinggi – Tinggi badan mahasiswa
+-  berat – Berat badan mahasiswa
+-  ariabel tambahan: prodi, gender, internet, beasiswa, pekerjaan, jarak, pendapatan, uang_saku, organisasi, tempat_tinggal, dan lainnya.
 
 Proses pembersihan data mencakup:
-Mengganti nama seluruh kolom agar seragam
-Membersihkan angka campuran (misal "3 jam" → 3)
-Mengubah koma menjadi titik
-Mengonversi kolom teks menjadi Title Case
-Mengubah nilai kosong/"-" menjadi NA
-Menstandarisasi kolom numerik
-Dataset kemudian digunakan untuk korelasi, uji asumsi, serta regresi linear berganda.
+- Mengganti nama seluruh kolom agar seragam
+- Membersihkan angka campuran (misal "3 jam" → 3)
+- Mengubah koma menjadi titik
+- Mengonversi kolom teks menjadi Title Case
+- Mengubah nilai kosong/"-" menjadi NA
+- Menstandarisasi kolom numerik
+- Dataset kemudian digunakan untuk korelasi, uji asumsi, serta regresi linear berganda.
 
 4. Struktur Repositori
 ├── ADS_KEL6.Rmd # File utama berisi seluruh kode analisis
@@ -52,14 +52,14 @@ Dataset kemudian digunakan untuk korelasi, uji asumsi, serta regresi linear berg
 └── output/ # (opsional) folder penyimpanan hasil plot/knit
 
 file sudah mencakup:
-Import data
-Cek struktur data
-Pembersihan data
-Uji normalitas residual
-Uji heteroskedastisitas
-Uji multikolinearitas
-Korelasi variabel
-Regresi linear berganda
-Plot Prediksi vs Aktual
-    Visualisasi koefisien regresi
+- Import data
+- Cek struktur data
+- Pembersihan data
+- Uji normalitas residual
+- Uji heteroskedastisitas
+- Uji multikolinearitas
+- Korelasi variabel
+- Regresi linear berganda
+- Plot Prediksi vs Aktual
+- Visualisasi koefisien regresi
 
